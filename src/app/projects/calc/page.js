@@ -42,7 +42,7 @@ export default function Calculator() {
         <main className="flex bg-transparent min-h-screen flex-col items-center justify-center">
 
             <div className='keeper bg-transparent flex-col items-center justify-center text-2xl rounded-2xl    '>
-                <input onChange={()=> getElementWidth()} id='inputWidth' className='bg-transparent  text-white w-auto  text-2xl lg:w-auto  rounded-t-2xl'  type="text"  value={expression} required readOnly />
+                <input onChange={()=> getElementWidth()} id='inputWidth' className='bg-transparent   w-auto  text-2xl lg:w-auto  rounded-t-2xl'  type="text"  value={expression} required readOnly />
                 <div  onChange={()=> getElementWidth()}  className='numbers text-black  bg-transparent text-2xl rounded-2xl '>
 
                     <div id="element-to-measure">
